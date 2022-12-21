@@ -1,0 +1,149 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("124383.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container {
+    background-color: rgba(165, 42, 42, 0.05);
+  }
+  .navbar {
+    background-color:gainsboro;
+    padding: 8px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 74px;
+    border-bottom-right-radius: 74px;
+    border-bottom:2px solid grey
+  }
+  .heading {
+    text-align: center;
+  }
+  .nav-img {
+    background-color: white;
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+  }
+  .nav-content {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+    padding: 10px;
+  }
+  .nav-head{
+    text-align: center;
+  }
+  .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    }
+  
+  
+  .credittable {
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding:18px;
+    border: 2px solid gray;
+    background-color: gainsboro;
+  }
+  .nav-link {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+  }
+  .insert {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+  }
+  
+  .add {
+    display: block;
+    width: 300px;
+    padding: 10px;
+    align-self: flex-start;
+  }
+  .footer {
+    margin-top: 170px;
+    padding: 2px;
+    text-align: center;
+    background-color:gainsboro;
+  }
+  .cal {
+    display: block;
+    width: 300px;
+    padding: 10px;
+    
+  }
+  .ans {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15px;
+    font-size: 16px;
+  }
+  input{
+    border-radius: 4px;
+    border-color: black;
+    width: 230px;
+    height: 29px;
+    margin-left: 30px;
+  }
+  input:hover{
+    cursor: pointer;
+    width: 260px;
+    transition: all 0.2s;
+    border-color: yellowgreen;
+  
+  }
+  .optionss{
+    border-radius: 4px;
+    border-color: black;
+    padding: 2px;
+    height: 24px;
+    padding: 2px;
+    width: 230px;
+  
+  }
+  .optionss:hover{
+    cursor: pointer;
+    padding: 3px;
+    transition: all 0.2s;
+    border-color: yellowgreen;
+    width: 260px;
+  }
+  .delete{
+    padding: 2px;
+    border-radius: 8px;
+    width: 30px;
+    border: none;
+    background: none;
+    margin-right: 50px;
+  }
+  .delete:focus{
+    cursor: pointer;
+    border: yellowgreen;
+    padding: 10px;
+    transition: all 0.2s;
+    align-self: flex-end;
+  }
+  .ico{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top:30px;
+  }
+  .row-top
+  {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 0.5fr;
+  }

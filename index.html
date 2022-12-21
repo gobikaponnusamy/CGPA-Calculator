@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <h2 class="nav-head" >KONGU ENGINEERING COLLEGE</h2>
+      </div>
+      <h2 class="heading">CALCULATE YOUR CGPA</h2>
+      <div class="credittable">
+        <div class="row-top row">
+          <h3>Course name</h3>
+          <h3>Credit</h3>
+          <h3>Grade</h3>
+        </div>
+        <div class="insert">
+          <form class="row">
+            <input placeholder="Enter Course Name" type="text" />
+            <input
+              placeholder="Enter No of Credits "
+              class="credit"
+              name="credit"
+              type="number"
+            />
+            <select class="optionss" name="optionselect">
+              <option value="10" selected>O</option>
+              <option value="9">A+</option>
+              <option value="8">A</option>
+              <option value="7">B+</option>
+              <option value="6">B</option>
+              <option value="0">wd</option>
+            </select>
+            <button class="delete"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg></button>
+          </form>
+
+          <form class="row">
+            <input placeholder="Enter Course Name" type="text" />
+            <input
+              placeholder="Enter No of Credits "
+              class="credit"
+              type="number"
+              name="credit"
+            />
+            <select class="optionss" name="optionselect">
+              <option value="10" selected>O</option>
+              <option value="9">A+</option>
+              <option value="8">A</option>
+              <option value="7">B+</option>
+              <option value="6">B</option>
+              <option value="0">wd</option>
+            </select>
+            <button class="delete"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg></button>
+          </form>
+          <form class="row">
+            <input placeholder="Enter Course Name" type="text" />
+            <input
+              placeholder="Enter No of Credits "
+              class="credit"
+              type="number"
+              name="credit"
+            />
+            <select class="optionss" name="optionselect">
+              <option value="10" selected>O</option>
+              <option value="9">A+</option>
+              <option value="8">A</option>
+              <option value="7">B+</option>
+              <option value="6">B</option>
+              <option value="0">wd</option>
+            </select>
+            <button class="delete"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg></button>
+          </form>
+        </div>
+        <div class="ico">
+        <button class="add" onclick="addmore()">Add Course</button>
+
+        <button class="cal" style="text-align: center;" onclick="calculate()">Calculate</button>
+        </div>
+
+        <div class="ans">
+          <p>Total credit earned : <span class="cre">0</span></p>
+          <p>GPA Obtained : <span class="gpa">0</span></p>
+        </div>
+      </div>
+      <div class="footer">
+        <p>Copyright received &copy; KONGU ENGINEERING COLLEGE</p>
+      </div>
+    </div>
+    <script src="r.js"></script>
+  </body>
+</html>
+
